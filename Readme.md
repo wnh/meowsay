@@ -5,7 +5,7 @@ It's a lot like cowsay, but less... bovine.
 Give `meowsay` some text on `stdin`:
 
 ```sh
-~/ $ MANWIDTH=60 man ls | head -n 15 | ./meowsay 
+~/ $ MANWIDTH=60 man ls | head -n 15 | ./meowsay.sh
            ▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄
            █ LS(1)                  User Commands                 LS(1)   █
            █                                                              █
@@ -39,6 +39,10 @@ Give `meowsay` some text on `stdin`:
 
 ```
 
+## TODO
+- [ ] Basic formatting of arguments that are over 60 characters in length
+- [ ] Update the Scanner to buffer from stdin, not the cat data.
+- [ ] Unicode support
 
 ## License
 ISC License
