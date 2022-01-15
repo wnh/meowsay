@@ -40,7 +40,10 @@ Give `meowsay` some text on `stdin`:
 ```
 
 ## TODO
-- [ ] Basic formatting of arguments that are over 60 characters in length
+- [x] Basic formatting of arguments that are over 60 characters in
+      length
+- [ ] Deal with the byte order mark that came from Project Gutenberg
+      test text
 - [ ] Update the Scanner to buffer from stdin, not the cat data.
 - [ ] Unicode support
 
